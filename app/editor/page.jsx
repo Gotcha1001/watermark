@@ -992,9 +992,10 @@ import { useState, useRef, useEffect } from "react";
 import NextImage from "next/image";
 import ImageUpload from "../components/ImageUpload";
 import WatermarkTypeSelector from "../components/WatermarkTypeSelector";
-import TextWatermarkSettings from "../components/TextWatermarkSettings";
+
 import LogoWatermarkSettings from "../components/LogoWatermarkSettings";
 import WatermarkSettings from "../components/WatermarkSettings";
+import TextWatermarkSettings from "../components/TextwatermarkSettings";
 
 export default function Editor() {
     const [image, setImage] = useState(null);
