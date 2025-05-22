@@ -1560,7 +1560,8 @@ import ImageUpload from "../components/ImageUpload";
 import WatermarkTypeSelector from "../components/WatermarkTypeSelector";
 import LogoWatermarkSettings from "../components/LogoWatermarkSettings";
 import WatermarkSettings from "../components/WatermarkSettings";
-import TextWatermarkSettings from "../components/TextWatermarkSettings";
+import TextWatermarkSettings from "../components/TextwatermarkSettings";
+
 
 export default function Editor() {
     const [image, setImage] = useState(null);
